@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Hello, Bootstrap!</title>
+  </head>
+  <body>
+    <h1>Здесь я учусь верстать используя Bootsrap</h1>
+    <h3>Вот например Bootsrap таблица:</h3>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Марк</td>
+            <td>Аврелий</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Якобс</td>
+            <td>Монарх</td>
+            <td>@cofee</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Элементы можно стилизовать без <abbr title="Cascading Style Sheets (Каскадная Таблица Стилей)" class="initialism">CSS</abbr>, но с добавлением классов:</h3>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+              <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Handle</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <th scope="row">1</th>
+              <td>Марк</td>
+            <td>Аврелий</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Якобс</td>
+            <td>Монарх</td>
+            <td>@coffee</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+      </table>
+      <figure class="text-end">
+        <blockquote class="blockquote">
+            <p>Я просто добавил к тэгу table с классом table классы table-dark и table-striped</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Комментарий <cite title="Source Title"><a href="https://github.com/orisios">Автора Этой Страницы</a></cite>
+        </figcaption>
+    </figure>
+    <h3>Таким же образом можно добавить <abbr title="Определяет стиль элемента при наведении на него курсора мыши">hover</abbr>'ы, выделить элементы таблицы:</h3>
+    <table class="table table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td class="table-active">Марк</td>
+            <td>Аврелий</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td >Якобс</td>
+            <td>Монарх</td>
+            <td>@cofee</td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Я пока не понял, как правильно расположить элемент по центру не применяя CSS, 
+            поэтому сделал таблицу с пустыми столбцами, в центральный столбец поместив кнопку -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-sm">
+          </div>
+          <div class="col-sm text-center">
+            <a href="nav.html" title="Навигационные панели Bootstrap" class="btn btn-dark btn-lg" role="button">ДАЛЕЕ</a>
+        </div>
+        <div class="col-sm">
+        </div>
+        <div class="col-sm">
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

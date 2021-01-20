@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Навигационные панели Bootstrap</title>
+  </head>
+    <body class="bg-dark">
+        <h1 class="bg-warning">Панели на которых не стыдно стоять</h1>
+        <h2 class="text-primary">Поддерживаемые типы содержимого навигационных панелей</h2>
+            <p class="text-info">В навбарах присутствуют встроенная поддержка многих суб-компонентов. Выбирайте нужный:</p>
+            <ul class="bg-indigo">
+                <li class="text-info"> <span class="text-warning">.navbar-brand</span> для названия вашей компании, продукта или имени проекта.</li>
+                <li class="text-info"><span class="text-warning">.navbar-nav</span> для навигации полной высоты (включая выпадающие элементы).</li>
+                <li class="text-info"><span class="text-warning">.navbar-toggler</span> для использования с нашим JS-«плагином свертывания» и других изменяющихся состояний навигации.</li>
+                <li class="text-info"><span class="text-warning">.form-inline</span> для любых органов контроля форм и действий с ними.</li>
+                <li class="text-info"><span class="text-warning">.navbar-text</span> для добавления вертикально центрированных строк текста.</li>
+                <li class="text-info"><span class="text-warning">.collapse.navbar-collapse</span> для группирования и скрытия содержимого навбара на определенном брейкпойнте родителя.</li>
+            </ul>
+            <p>Вот пример всех суб-компонентов, которые включены в отзывчивый светлый навбар с автоматическим сворачиванием на брейкпойнте lg (большой).</p>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" title=".navbar-brand" href="#">Навигация</a>
+              <button class="navbar-toggler" title="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" title="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" title=".collapse.navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" title="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Начало</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">3</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Выпадающий список
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </body>
+</html>
