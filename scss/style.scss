@@ -1,1 +1,18 @@
 $breadcrumb-divider: quote(">");
+@import "frag";
+
+%border-paddings-margin{
+    border: 3px dotted black;
+    padding-left: 3px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 12px;
+    margin: 10px;
+}
+
+.one, .two, .five {
+    @extend %border-paddings-margin;
+    &:hover {
+        background-color: white;
+    }
+}
