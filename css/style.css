@@ -12,3 +12,21 @@
 
 .one:hover, .two:hover, .five:hover {
   background-color: white; }
+
+#grid {
+  float: left;
+  margin-left: 10px;
+  width: 1250px;
+  padding: 10px 10px 0px 10px;
+  background: #fff; }
+  #grid div {
+    float: left;
+    background-color: #000;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    height: 150px;
+    width: 24.25%; }
+    #grid div:nth-child(4n) {
+      margin-right: 0; }
+    #grid div:hover {
+      background-color: gray; }

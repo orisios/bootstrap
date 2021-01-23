@@ -1,5 +1,9 @@
 $breadcrumb-divider: quote(">");
+$definitely-not-hover: hover;
+
 @import "frag";
+
+
 
 %border-paddings-margin{
     border: 3px dotted black;
@@ -12,7 +16,52 @@ $breadcrumb-divider: quote(">");
 
 .one, .two, .five {
     @extend %border-paddings-margin;
-    &:hover {
+    &:#{$definitely-not-hover} {
         background-color: white;
     }
 }
+
+
+@mixin grid($cols, $margin) {
+    float: left;
+    background-color: #000;
+    margin-right: $margin;
+    margin-bottom: $margin;
+    height: 150px;
+    width: ((100% - (($cols - 1) * $margin)) / $cols);
+    
+    &:nth-child(#{$cols}n) {
+        margin-right: 0;
+    }
+}
+
+$fifty: 50;
+$halffifty: 25;
+
+@function hundred($n: 12.5) {
+    @return $n * ($fifty + $halffifty * 2);
+}
+
+@mixin bgw {
+    background: #fff;
+}
+
+@mixin padding($paddings...) {
+    padding: $paddings;
+}
+
+#grid {
+    float: left;
+    margin-left: 10px;    
+    width: #{hundred()}px;
+
+    @include padding (10px 10px 0px 10px);
+    @include bgw;
+     div {
+        @include grid(4, 1%);
+        &:#{$definitely-not-hover} {
+            background-color: lighten(#000, 50%);
+        }
+    }
+}
+
