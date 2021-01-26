@@ -30,3 +30,85 @@
       margin-right: 0; }
     #grid div:hover {
       background-color: gray; }
+
+.rabbits {
+  background: #fff;
+  border: 12px solid purple;
+  border-radius: 50%;
+  margin-top: 360px;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+  padding-bottom: 220px; }
+  .rabbits .rabbit-1 {
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-1:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-2 {
+    width: 70px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-2:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-3 {
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-3:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-4 {
+    width: 90px;
+    height: 90px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-4:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-5 {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-5:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-6 {
+    width: 110px;
+    height: 110px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-6:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-7 {
+    width: 120px;
+    height: 120px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-7:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-8 {
+    width: 130px;
+    height: 130px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-8:hover {
+      background-color: yellow; }
+  .rabbits .rabbit-9 {
+    width: 140px;
+    height: 140px;
+    background: black;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .rabbits .rabbit-9:hover {
+      background-color: yellow; }
